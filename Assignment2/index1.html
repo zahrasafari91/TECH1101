@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <header>
+            <h2>
+                HTML Form Elements
+            </h2>
+        </header>
+        <section>
+            <!-- The input Element -->
+            <h3>1.Input</h3>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" name="fname"><br>
+                <input type="submit" value="Submit">
+              </form>
+              <br><br>
+
+              <!-- The <select> Element -->
+            <h3>2.select</h3>
+            <form>
+                <label for="color">Choose a color</label><br>
+                <select name="color">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                </select><br>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+
+            <!-- Visible Values:Use the size attribute  -->
+            <h3>3.Visible Values</h3>
+            <form>
+                <label for="color">Choose a color</label>
+                <select name="color" size="2">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                </select><br>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+
+            <!-- Multiple Selections -->
+            <h3>4.Multiple Selections:</h3>
+            <form>
+                <label for="color">Choose a color</label>
+                <select name="color" size="4">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                </select><br>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+
+            <!-- The <textarea> Element -->
+            <h3>5.Textarea</h3>
+            <p>
+                The textarea element defines a multi-line input field.  
+            </p>
+            <form>
+                <textarea name="message" cols="30" rows="10">write your comment here! </textarea><br>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+
+            <!-- The <button> Element -->
+            <h3>6.The button Element</h3>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <br><br>
+
+            <!-- The <fieldset> and <legend> Elements -->
+            <h3>7.Fieldset and Legend </h3>
+            <form>
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" value="Zahra">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" value="Safari">
+                    <input type="submit" value="submit">
+                </fieldset>
+            </form> 
+            <br><br>
+
+            <!-- The datalist Element -->
+            <h3>8.The datalist Element</h3>
+            <p>
+                The datalist element specifies a list of 
+                pre-defined options for an input element.
+            </p>
+            <form>
+                <input list="color" name="color">
+                <datalist id="color">
+                    <option value="Blue"></option>
+                    <option value="Red"></option>
+                    <option value="Green"></option>
+                    <option value="Black"></option>
+                </datalist>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+
+            <!-- The <output> Element -->
+            <h3>9.Output:</h3>
+            <form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+                0
+                <input type="range" id="num1" name="num1" value="0">
+                100
+                <input type="number" id="num2" name="num2" value="30">
+                =
+                <output name="result" for="num1 num2"></output>
+            </form>
+        </section>
+        <br><hr>
+        <br>
+        <footer>
+            <p>&copy; Assignment 2 - Zahra </p>
+        </footer> 
+    </body>
+</html>
