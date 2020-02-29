@@ -1,2 +1,3 @@
-#Tax Calculator
+# Tax Calculator
+
 Canadian (Federal) Taxes
