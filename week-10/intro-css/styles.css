@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: verdana;
+    font-size: 20px;
+    background-color: lightskyblue;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-size: 12px;
+    border-bottom: blue;
+    border-style: dashed;
+}
+
+
+h3 {
+
+    color: blue;
+    font-size: 12px;
+    border-bottom: blue;
+    
+}
+
+.home-titles {
+    font-size: 20px;
+    border-bottom: blue;
+}
+
+ul,
+.p1 {
+    
+    color: teal;
+}
+
+
+
+.p2 {
+    background-color: pink;
+}
