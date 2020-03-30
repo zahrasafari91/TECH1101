@@ -1,0 +1,55 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-image: url("img/Dandy_Brewing_Logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed; */
+    background:  url(img/nattu-adnan-328570-unsplash.jpg) no-repeat left top;
+    margin: 10px 0;
+    /* margin: top/bottom left/rirgt */
+}
+
+h1{
+    background: lightpink;
+
+}
+
+#boxes{
+    height: 200px;
+    margin: 10px;
+    width: 100px;
+}
+
+.box1{
+    background: lightgoldenrodyellow;
+    border: 2px solid blue;
+    /* padding: 4px;
+    margin: 4px; */
+    /* text-align: center; */
+    
+}
+.box2{
+    background-color: hsl(39,50%,44%,0.5);
+}
+.box3{
+    background: rgb(120,0,0,0.6);
+}
+.box4{
+    background: rgba(58, 120, 0, 0.4);
+}
+
+.first{
+    border-bottom: 2px solid blue;
+    margin: 2px;
+    padding: 2px; 
+    display: block;
+    text-align: center;
+}
+
+.first:hover{
+    border-bottom: 2px solid black;
+}
